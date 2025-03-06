@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": 1,
+    "totalCopies": 10,
+    "availableCopies": 10,
+    "year": 2008
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "genre": 1,
+    "totalCopies": 8,
+    "availableCopies": 8,
+    "year": 1999
+  },
+  {
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "genre": 1,
+    "totalCopies": 12,
+    "availableCopies": 12,
+    "year": 1994
+  },
+  {
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "genre": 1,
+    "totalCopies": 7,
+    "availableCopies": 7,
+    "year": 1999
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "genre": 1,
+    "totalCopies": 15,
+    "availableCopies": 15,
+    "year": 1990
+  },
+  {
+    "title": "The Mythical Man-Month",
+    "author": "Fred Brooks",
+    "genre": 1,
+    "totalCopies": 5,
+    "availableCopies": 5,
+    "year": 1975
+  },
+  {
+    "title": "Code Complete",
+    "author": "Steve McConnell",
+    "genre": 1,
+    "totalCopies": 10,
+    "availableCopies": 10,
+    "year": 1993
+  },
+  {
+    "title": "The Art of Computer Programming",
+    "author": "Donald Knuth",
+    "genre": 1,
+    "totalCopies": 20,
+    "availableCopies": 20,
+    "year": 1968
+  },
+  {
+    "title": "Head First Design Patterns",
+    "author": "Eric Freeman, Elisabeth Robson",
+    "genre": 1,
+    "totalCopies": 9,
+    "availableCopies": 9,
+    "year": 2004
+  },
+  {
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "genre": 1,
+    "totalCopies": 6,
+    "availableCopies": 6,
+    "year": 2003
+  },
+  {
+    "title": "The Clean Coder",
+    "author": "Robert C. Martin",
+    "genre": 1,
+    "totalCopies": 8,
+    "availableCopies": 8,
+    "year": 2011
+  },
+  {
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "genre": 1,
+    "totalCopies": 10,
+    "availableCopies": 10,
+    "year": 2014
+  },
+  {
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "genre": 1,
+    "totalCopies": 12,
+    "availableCopies": 12,
+    "year": 2001
+  },
+  {
+    "title": "Programming Pearls",
+    "author": "Jon Bentley",
+    "genre": 1,
+    "totalCopies": 7,
+    "availableCopies": 7,
+    "year": 1986
+  },
+  {
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan, Dennis M. Ritchie",
+    "genre": 1,
+    "totalCopies": 10,
+    "availableCopies": 10,
+    "year": 1978
+  },
+  {
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Harold Abelson, Gerald Jay Sussman",
+    "genre": 1,
+    "totalCopies": 15,
+    "availableCopies": 15,
+    "year": 1984
+  },
+  {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan, Brian W. Kernighan",
+    "genre": 1,
+    "totalCopies": 8,
+    "availableCopies": 8,
+    "year": 2015
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "genre": 1,
+    "totalCopies": 10,
+    "availableCopies": 10,
+    "year": 2015
+  },
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "genre": 1,
+    "totalCopies": 10,
+    "availableCopies": 10,
+    "year": 2011
+  },
+  {
+    "title": "Learning React",
+    "author": "Alex Banks, Eve Porcello",
+    "genre": 1,
+    "totalCopies": 10,
+    "availableCopies": 10,
+    "year": 2017
+  }
+]

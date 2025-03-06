@@ -1,0 +1,12 @@
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\bin\Debug\net8.0\App.Shared.deps.json
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\bin\Debug\net8.0\App.Shared.dll
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\bin\Debug\net8.0\App.Shared.pdb
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.csproj.AssemblyReference.cache
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.AssemblyInfoInputs.cache
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.AssemblyInfo.cs
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.csproj.CoreCompileInputs.cache
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.dll
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\refint\App.Shared.dll
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.pdb
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\ref\App.Shared.dll

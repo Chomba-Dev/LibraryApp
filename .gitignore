@@ -1,0 +1,21 @@
+# Ignore build and runtime files
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.swp
+
+# Ignore local configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore NuGet packages
+packages/
+
+# Ignore logs and diagnostics
+logs/
+*.log
+*.nlog

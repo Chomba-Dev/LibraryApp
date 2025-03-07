@@ -3,23 +3,24 @@ using Microsoft.AspNetCore.Mvc;
 using App.Shared.Models;
 using App.Shared.Responses;
 using Microsoft.AspNetCore.Authorization;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 [ApiController]
 [Route("api/[controller]")]
-public class AuthController : ControllerBase
+public class AuthenticationController : ControllerBase
 {
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
+    private readonly TokenService _tokenService;
 
-    public AuthController(
+    public AuthenticationController(
         UserManager<ApplicationUser> userManager,
-        SignInManager<ApplicationUser> signInManager)
+        SignInManager<ApplicationUser> signInManager,
+        TokenService tokenService)
     {
         _userManager = userManager;
         _signInManager = signInManager;
+        _tokenService = tokenService;
     }
 
     // Register a new user (Admin only)
@@ -65,7 +66,6 @@ public class AuthController : ControllerBase
         return response;
     }
 
-    // Login a user
     [HttpPost("login")]
     public async Task<ServiceResponse<LoginResponse>> Login([FromBody] LoginModel model)
     {
@@ -78,15 +78,26 @@ public class AuthController : ControllerBase
             // Get the user
             var user = await _userManager.FindByNameAsync(model.Username);
 
+            if (user == null)
+            {
+                response.Success = false;
+                response.Message = "User not found!";
+                return response;
+            }
+
             // Get the user's roles
             var roles = await _userManager.GetRolesAsync(user);
+
+            // Generate JWT token
+            var token = _tokenService.GenerateToken(user.UserName, roles.ToList());
 
             // Create the response object
             var loginResponse = new LoginResponse
             {
                 Username = user.UserName,
                 Email = user.Email,
-                Roles = roles.ToList()
+                Roles = roles.ToList(),
+                Token = token // Include the token in the response
             };
 
             response.Success = true;

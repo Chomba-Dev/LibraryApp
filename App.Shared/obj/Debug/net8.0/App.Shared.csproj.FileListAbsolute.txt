@@ -10,3 +10,4 @@ C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App
 C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\refint\App.Shared.dll
 C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.pdb
 C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\ref\App.Shared.dll
+C:\Users\GERSHOM CHOMBA\RiderProjects\LibraryApp\App.Shared\obj\Debug\net8.0\App.Shared.sourcelink.json

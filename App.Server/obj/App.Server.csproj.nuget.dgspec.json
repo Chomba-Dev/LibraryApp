@@ -48,6 +48,26 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspNetCore.Authentication.JwtBearer.Extension": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "JWT.Extensions.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "JWT.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0-beta2, )"
+            },
+            "JWTCookieAuthentication": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "JWTs": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -55,6 +75,10 @@
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
